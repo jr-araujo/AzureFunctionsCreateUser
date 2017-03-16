@@ -37,16 +37,20 @@ public class CreateUserService
         {
             if (ex.StatusCode == HttpStatusCode.NotFound)
             {
-                User u = new User();
-                u.Id = data?.Id;
-                u.JobTitle = data?.JobTitle;
-                await client.CreateDocumentAsync(UriFactory.CreateDocumentCollectionUri(DB, COLLECTION), u);
+                User user = new User();
+                user.Id = data?.Id;
+                //user.Idade = data?.Idade;
+                user.FirstName = data?.FirstName;
+                user.SurName = data?.SurName;
+                user.JobTitle = data?.JobTitle;
 
-                return req.CreateResponse(HttpStatusCode.OK, "The following user was created successfully: " + id);
+                await client.CreateDocumentAsync(UriFactory.CreateDocumentCollectionUri(DB, COLLECTION), user);
+
+                return req.CreateResponse(HttpStatusCode.OK, new FunctionResult($"The following user was created successfully: {user.SurName}, {user.FirstName}"));
             }
             else
             {
-                return req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body");
+                return req.CreateResponse(HttpStatusCode.BadRequest, new FunctionResult("Please pass a name on the query string or in the request body").SetError());
             }
         }
     }
@@ -56,5 +60,8 @@ private class User
 {
     [JsonProperty(PropertyName = "id")]
     public string Id { get; set; }
+    //public int Idade { get; set; }
+    public string FirstName { get; set; }
+    public string SurName { get; set; }
     public string JobTitle { get; set; }
 }

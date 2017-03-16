@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{33AD0EE8-D99B-4E14-8CD9-3F56ABEF97A2}") = "AzureFunctionsAzureRocks", "AzureFunctionTeste\AzureFunctionsAzureRocks.funproj", "{8C4F4CA6-4458-4696-8748-61DB0981642E}"
+Project("{33AD0EE8-D99B-4E14-8CD9-3F56ABEF97A2}") = "AzureFunctionsAzureRocks", "AzureFunctionsCreateUser\AzureFunctionsAzureRocks.funproj", "{8C4F4CA6-4458-4696-8748-61DB0981642E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
