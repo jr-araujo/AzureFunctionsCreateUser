@@ -1,0 +1,10 @@
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\RequestFunctionConsole.exe.config
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\RequestFunctionConsole.exe
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\RequestFunctionConsole.pdb
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\RestSharp.dll
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\bin\Debug\RestSharp.xml
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\obj\Debug\RequestFunctionConsole.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\obj\Debug\RequestFunctionConsole.exe
+D:\Projects\GitHub\AzureFunctionsCreateUser\RequestFunctionConsole\obj\Debug\RequestFunctionConsole.pdb
