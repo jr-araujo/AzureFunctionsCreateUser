@@ -39,7 +39,7 @@ public class CreateUserService
             {
                 User user = new User();
                 user.Id = data?.Id;
-                //user.Idade = data?.Idade;
+                user.Idade = data?.Idade;
                 user.FirstName = data?.FirstName;
                 user.SurName = data?.SurName;
                 user.JobTitle = data?.JobTitle;
@@ -60,7 +60,7 @@ private class User
 {
     [JsonProperty(PropertyName = "id")]
     public string Id { get; set; }
-    //public int Idade { get; set; }
+    public int? Idade { get; set; }
     public string FirstName { get; set; }
     public string SurName { get; set; }
     public string JobTitle { get; set; }
