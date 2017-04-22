@@ -7,9 +7,9 @@ using Newtonsoft.Json;
 
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
-    //--------------------------------------------------------//
-    //                      1ºnd Phase                        //
-    //--------------------------------------------------------//
+    //--------------------------------------------------------------//
+    //                      1ºnd Phase                              //
+    //--------------------------------------------------------------//
     //string DB = "usersdb";
     //string COLLECTION = "users";
     //string ENDPOINT = "https://codificandoweek2017.documents.azure.com:443/";
